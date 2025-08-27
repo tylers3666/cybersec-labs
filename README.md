@@ -2,8 +2,9 @@
 This repository documents my journey in cybersecurity, including TryHackMe writeups, custom scripts, and notes.
 
 ## How this repo is organized
-- `tryhackme/` — Writeups for rooms and paths.
-- `tools/` — Notes and custom scripts for security tools.
+- `tryhackme/` - Writeups for rooms and paths.
+- `tools/` - Notes and custom scripts for security tools.
+- `templates/` - Templates used to write reports.
 
 ## Notes
 - I redact real IPs/credentials and remove exploit payloads before publishing.
