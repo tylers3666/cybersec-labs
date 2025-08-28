@@ -21,9 +21,6 @@ Step-by-step approach:
 ## 3. Commands & Tools Used
 List commands and why they were used.
 
-## 4. Screenshots
-Add key screenshots showing progress.
-
-## 5. Lessons Learned
+## 4. Lessons Learned
 What you learned, mistakes, future improvements.
 
