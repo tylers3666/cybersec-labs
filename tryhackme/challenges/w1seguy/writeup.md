@@ -14,7 +14,8 @@ XOR decoding with an unknown key
 Initial given information:
 - Source code showing the encoding process
 - IP Address and listening port
-Based on the Python code given in the task files, the key is 5 randomly generated characters.
+- Based on the Python code given in the task files, the key is 5 randomly generated characters.
+![Source code](screenshots/sourcecode.png)
 
 Connecting to the target:
 - Using Netcat, the response gives us an encoded flag and prompt asking for the encryption key.
