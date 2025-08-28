@@ -15,6 +15,7 @@ Initial given information:
 - Source code showing the encoding process
 - IP Address and listening port
 Based on the Python code given in the task files, the key is 5 randomly generated characters.
+
 Connecting to the target:
 - Using Netcat, the response gives us an encoded flag and prompt asking for the encryption key.
 ![Nettcat connection](screenshots/nc-connection.png)
@@ -26,8 +27,9 @@ Finding the key:
 ![CyberChef](screenshots/thminput.png)
 - To brute force the final character, I made a new recipe that turns the hex string into normal text, and then puts it through an XOR operation with the partial key found earlier. We can see in the output that the first part of the flag ("THM{") is showing up as it should.
 ![CyberChef](screenshots/recipe.png)
-- From this point, I just tried every letter until I found something that looked like a flag, with the main indicator being the ending curly brace '}'. In my case, the key ended up being 'ydWPT'
-![First flag and key](screenshots/flag1.png).
+- From this point, I just tried every letter until I found something that looked like a flag, with the main indicator being the ending curly brace '}'. In my case, the key ended up being 'ydWPT'.
+![First flag and key](screenshots/flag1.png)
+
 The final flag:
 - Inputting my key into the Netcat connection from earlier, it gives me the final flag in plaintext, so there is no more work to do!
 ![Final flag](screenshots/flag2.png)
