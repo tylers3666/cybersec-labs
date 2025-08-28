@@ -16,16 +16,21 @@ Initial given information:
 - IP Address and listening port
 Based on the Python code given in the task files, the key is 5 randomly generated characters.
 Connecting to the target:
-- Using Netcat, the response gives us an ![encoded flag and prompt asking for the encryption key.](screenshots/nc-connection.png)
+- Using Netcat, the response gives us an encoded flag and prompt asking for the encryption key.
+![Nettcat connection](screenshots/nc-connection.png)
 - Notice that the encoded flag is also in hex format
 Finding the key:
 - I know that most flags in THM rooms follow the format "THM{flag}"
 - Because of this, the first 4 hex bytes will correlate to the string "THM{"
-- Putting the substring into CyberChef, I can use the first 4 bytes of the hex string as the key in an XOR operation. The output of this will give a ![4 character output](screenshots/thminput.png), 1 character less than the key we need.
-- To brute force the final character, I made a ![new recipe](screenshots/recipe.png) that turns the hex string into normal text, and then puts it through an XOR operation with the partial key found earlier. We can see in the output that the first part of the flag ("THM{") is showing up as it should.
-- From this point, I just tried every letter until I found something that looked like a flag, with the main indicator being the ending curly brace '}'. In my case, the key ended up being !['ydWPT'](screenshots/flag1.png).
+- Putting the substring into CyberChef, I can use the first 4 bytes of the hex string as the key in an XOR operation. The output of this will give a 4 character output, 1 character less than the key we need.
+![CyberChef](screenshots/thminput.png)
+- To brute force the final character, I made a new recipe that turns the hex string into normal text, and then puts it through an XOR operation with the partial key found earlier. We can see in the output that the first part of the flag ("THM{") is showing up as it should.
+![CyberChef](screenshots/recipe.png)
+- From this point, I just tried every letter until I found something that looked like a flag, with the main indicator being the ending curly brace '}'. In my case, the key ended up being 'ydWPT'
+![First flag and key](screenshots/flag1.png).
 The final flag:
-- Inputting my key into the Netcat connection from earlier, it gives me the ![final flag](flag2.png) in plaintext, so there is no more work to do!
+- Inputting my key into the Netcat connection from earlier, it gives me the final flag in plaintext, so there is no more work to do!
+![Final flag](screenshots/flag2.png)
 
 
 ## 3. Commands & Tools Used
