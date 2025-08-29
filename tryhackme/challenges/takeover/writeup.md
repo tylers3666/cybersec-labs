@@ -1,8 +1,8 @@
 # Takeover
 
-**Platform:** TryHackMe
-**Category:** Web
-**Difficulty:** Easy
+**Platform:** [TryHackMe](https://tryhackme.com)
+**Category:** Web  
+**Difficulty:** Easy  
 **Date Completed:** 2025-08-27
 
 ---
