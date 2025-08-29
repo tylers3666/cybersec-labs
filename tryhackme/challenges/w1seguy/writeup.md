@@ -1,4 +1,4 @@
-# Lab Name
+# W1seGuy
 
 **Platform:** [TryHackMe](https://tryhackme.com)  
 **Category:** Cryptography  
