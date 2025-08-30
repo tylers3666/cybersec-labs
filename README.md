@@ -17,5 +17,6 @@ This repository documents my journey in cybersecurity, including lab/challenge w
 
 ## Quick Links
 - [Current Path](https://github.com/tylers3666/cybersec-labs/blob/main/learning/tryhackme/jr-pentester/README.md)
+- [Lokkup writeup](https://github.com/tylers3666/cybersec-labs/blob/main/writeups/tryhackme/lookup/writeup.md)
 - [Takeover Writeup](https://github.com/tylers3666/cybersec-labs/blob/main/writeups/tryhackme/takeover/writeup.md)
 - [w1seguy Writeup](https://github.com/tylers3666/cybersec-labs/blob/main/writeups/tryhackme/w1seguy/writeup.md)
