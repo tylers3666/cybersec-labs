@@ -39,8 +39,8 @@ Experimenting:
 - After some messing around, I decided to look at the source code to see how my payload was handled, and the final flag was hidden in the img tag that I used for the payload.
 
 ## 3. Commands & Tools Used
-`<alert>`: used for proof of concept that there is an XSS vulnerability. If I can run an alert on the page, I can run whatever JS code I want.
-`'`: putting a single apostrophe (') or quote (") after something that may be an SQL query could give an error that would allow you to discover more about the database and lead to more harmful SQL injection.
+`<alert>`: used for proof of concept that there is an XSS vulnerability. If I can run an alert on the page, I can run whatever JS code I want.  
+`'`: putting a single apostrophe (') or quote (") after something that may be an SQL query could give an error that would allow you to discover more about the database and lead to more harmful SQL injection.  
 `<onerror>`: if `<script>` tags are filtered from input, it may be possible to bypass with another tag that can load scripts using events. For example, images have onload and onerror events, buttons have onclick events, etc.
 
 
