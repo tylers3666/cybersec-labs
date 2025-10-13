@@ -46,7 +46,7 @@ Flag 3:
 - With this knowledge, you can make a POST request with the following JSON content: `{"action": "grantAdmin", "env": "FLAG_3"}`, which returns the third flag
 
 ## 3. Commands & Tools Used
-`Developer tools`: always great for web testing
+`Developer tools`: always great for web testing  
 `Thunder Client`: VSCode extension that the CTF League coordinator mentioned, great lightweight client for modifying and sending simple HTTP requests
 
 ## 4. Lessons Learned
