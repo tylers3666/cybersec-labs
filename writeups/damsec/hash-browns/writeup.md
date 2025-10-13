@@ -1,6 +1,6 @@
 # hash-browns
 
-**Platform:** OSUSec  
+**Platform:** DAMSEC 
 **Category:** Web  
 **Difficulty:** 50pts
 **Date Completed:** 2025-09-29  
